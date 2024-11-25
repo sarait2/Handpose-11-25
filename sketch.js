@@ -10,11 +10,6 @@ function preload() {
   video.size(640, 480);
   video.hide();
 }
-let hands = [];
-function setup() {
-    // ...
-    video.hide();
-  
     // Start detecting hands from the webcam video
     handPose.detectStart(video, gotHands);
   }
